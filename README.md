@@ -5,24 +5,33 @@
 **A schema-first, contributor-ready map of AI agent frameworks, SDKs, skills systems, and agent tooling.**
 
 <p>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-16a34a?style=for-the-badge" alt="License: MIT" /></a>
-  <a href="./docs/schema.md"><img src="https://img.shields.io/badge/Schema-Structured_Data-1d4ed8?style=for-the-badge" alt="Schema" /></a>
-  <a href="./docs/classification-system.md"><img src="https://img.shields.io/badge/Taxonomy-15_Categories-0f766e?style=for-the-badge" alt="Taxonomy" /></a>
-  <a href="./docs/skills-system.md"><img src="https://img.shields.io/badge/Skills-Reusable_System-7c3aed?style=for-the-badge" alt="Skills" /></a>
-  <a href="./PRINCIPLES.md"><img src="https://img.shields.io/badge/Principles-First-475569?style=for-the-badge" alt="Principles First" /></a>
+  <a href="https://github.com/kiwigitops/Master-Skills/stargazers"><img src="https://img.shields.io/github/stars/kiwigitops/Master-Skills?style=for-the-badge&logo=github&label=Star%20This%20Repo&color=f59e0b" alt="Star this repository" /></a>
+  <a href="https://github.com/sponsors/kiwigitops"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor this project" /></a>
 </p>
 
 <p>
-  <a href="./indexes/by-category.md"><img src="https://img.shields.io/badge/Browse-Indexes-111827?style=for-the-badge" alt="Indexes" /></a>
-  <a href="./wiki/beginners-guide.md"><img src="https://img.shields.io/badge/Beginner-Start_Here-0891b2?style=for-the-badge" alt="Beginner" /></a>
-  <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-Welcome-2563eb?style=for-the-badge" alt="Contribute" /></a>
-  <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-Policy-f59e0b?style=for-the-badge" alt="Security" /></a>
+  <sub>If this repository helps you, starring and sponsoring directly support ongoing curation.</sub>
 </p>
 
 <p>
-  <a href="#quick-start"><img src="https://img.shields.io/badge/Quick_Start-Run_Now-334155?style=for-the-badge" alt="Quick Start" /></a>
-  <a href="./templates/repo-entry-template.md"><img src="https://img.shields.io/badge/Add_Repository-Template-1f2937?style=for-the-badge" alt="Add Repository" /></a>
-  <a href="./templates/skill-template.md"><img src="https://img.shields.io/badge/Add_Skill-Template-1f2937?style=for-the-badge" alt="Add Skill" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-16a34a?style=flat-square" alt="License" /></a>
+  <a href="./docs/schema.md"><img src="https://img.shields.io/badge/Schema-Structured_Data-1d4ed8?style=flat-square" alt="Schema" /></a>
+  <a href="./docs/classification-system.md"><img src="https://img.shields.io/badge/Taxonomy-15_Categories-0f766e?style=flat-square" alt="Taxonomy" /></a>
+  <a href="./docs/skills-system.md"><img src="https://img.shields.io/badge/Skills-System-7c3aed?style=flat-square" alt="Skills" /></a>
+  <a href="./PRINCIPLES.md"><img src="https://img.shields.io/badge/Principles-First-475569?style=flat-square" alt="Principles" /></a>
+</p>
+
+<p>
+  <a href="./indexes/by-category.md"><img src="https://img.shields.io/badge/Browse-Indexes-334155?style=flat-square" alt="Indexes" /></a>
+  <a href="./wiki/beginners-guide.md"><img src="https://img.shields.io/badge/Beginner-Start_Here-0891b2?style=flat-square" alt="Beginner" /></a>
+  <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-Welcome-2563eb?style=flat-square" alt="Contribute" /></a>
+  <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-Policy-f59e0b?style=flat-square" alt="Security" /></a>
+</p>
+
+<p>
+  <a href="#quick-start"><img src="https://img.shields.io/badge/Quick_Start-Run_Now-1f2937?style=flat-square" alt="Quick Start" /></a>
+  <a href="./templates/repo-entry-template.md"><img src="https://img.shields.io/badge/Add_Repository-Template-1f2937?style=flat-square" alt="Add Repository" /></a>
+  <a href="./templates/skill-template.md"><img src="https://img.shields.io/badge/Add_Skill-Template-1f2937?style=flat-square" alt="Add Skill" /></a>
 </p>
 
 </div>
