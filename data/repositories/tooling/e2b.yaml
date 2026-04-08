@@ -1,0 +1,33 @@
+name: E2B
+github_url: https://github.com/e2b-dev/E2B
+description: Sandboxed execution environment for running agent-generated code safely.
+category: Sandboxing / Execution
+subcategory: secure execution runtime
+tags:
+  - sandbox
+  - code-execution
+  - security
+  - isolation
+language: typescript
+license: Apache-2.0
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - safe code execution for agents
+  - isolated runtime tasks
+  - constrained tool execution
+deployment_type:
+  - cloud
+  - api
+notable_features:
+  - ephemeral sandbox environments
+  - agent-oriented runtime APIs
+  - security-focused execution model
+limitations:
+  - network and runtime policy configuration is application-specific
+  - sandboxing does not replace full application security review
+related_projects:
+  - https://github.com/All-Hands-AI/OpenHands
+last_reviewed: 2026-04-08

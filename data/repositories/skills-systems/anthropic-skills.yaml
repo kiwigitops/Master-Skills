@@ -1,0 +1,33 @@
+name: Anthropic Skills
+github_url: https://github.com/anthropics/skills
+description: Public repository of skill examples and templates for Claude-compatible skill packaging.
+category: Skills Systems
+subcategory: reference skill repository
+tags:
+  - skills
+  - claude
+  - templates
+  - examples
+language: multi
+license: mixed
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - learning skill design patterns
+  - creating custom skill libraries
+  - bundling scripts with instructions
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - broad range of concrete skill examples
+  - template-based onboarding
+  - alignment with open skill standards
+limitations:
+  - some advanced skills assume prior technical context
+  - license terms vary by skill folder
+related_projects:
+  - https://github.com/openai/skills
+last_reviewed: 2026-04-08

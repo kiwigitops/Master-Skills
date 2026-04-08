@@ -1,0 +1,33 @@
+name: OpenAI Skills
+github_url: https://github.com/openai/skills
+description: Curated and system skill catalog showing reusable skill packaging patterns for agent workflows.
+category: Skills Systems
+subcategory: curated skill catalog
+tags:
+  - skills
+  - packaging
+  - codex
+  - templates
+language: multi
+license: mixed
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - reusable workflow packaging
+  - team skill distribution
+  - capability standardization
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - folder-per-skill packaging
+  - optional scripts and references
+  - system and curated skill tiers
+limitations:
+  - quality varies across community-contributed skills
+  - execution quality depends on host agent behavior
+related_projects:
+  - https://github.com/anthropics/skills
+last_reviewed: 2026-04-08

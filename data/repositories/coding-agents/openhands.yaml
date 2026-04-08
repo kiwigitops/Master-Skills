@@ -1,0 +1,33 @@
+name: OpenHands
+github_url: https://github.com/All-Hands-AI/OpenHands
+description: Open-source coding agent platform focused on autonomous software tasks in controlled execution environments.
+category: Coding Agents
+subcategory: autonomous coding platform
+tags:
+  - coding-agent
+  - autonomy
+  - task-execution
+  - open-source
+language: python
+license: MIT
+maturity: beta
+activity_status: active
+docs_quality: medium
+beginner_friendly: false
+use_cases:
+  - autonomous issue resolution
+  - long-running development tasks
+  - benchmark experiments for software agents
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - end-to-end task execution loops
+  - environment isolation patterns
+  - active community benchmarking
+limitations:
+  - setup and resource requirements can be high
+  - autonomous behavior still needs human review
+related_projects:
+  - https://github.com/Aider-AI/aider
+last_reviewed: 2026-04-08

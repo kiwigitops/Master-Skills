@@ -1,0 +1,33 @@
+name: AutoGen
+github_url: https://github.com/microsoft/autogen
+description: Multi-agent conversation framework for coordinating specialized agents on complex tasks.
+category: Multi-Agent Systems
+subcategory: role-based collaboration framework
+tags:
+  - multi-agent
+  - orchestration
+  - collaboration
+  - framework
+language: python
+license: MIT
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: false
+use_cases:
+  - role-specialized agent teams
+  - delegated task decomposition
+  - collaborative problem solving
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - agent-to-agent messaging patterns
+  - configurable role behaviors
+  - extensible orchestration primitives
+limitations:
+  - coordination complexity grows quickly
+  - debugging multi-agent loops requires strong observability
+related_projects:
+  - https://github.com/langchain-ai/langgraph
+last_reviewed: 2026-04-08

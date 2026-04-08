@@ -1,0 +1,33 @@
+name: browser-use
+github_url: https://github.com/browser-use/browser-use
+description: Framework for browser automation with language models, designed for web task execution and extraction.
+category: Browser / Computer Use Agents
+subcategory: browser automation framework
+tags:
+  - browser-automation
+  - web-agents
+  - extraction
+  - python
+language: python
+license: MIT
+maturity: beta
+activity_status: active
+docs_quality: medium
+beginner_friendly: true
+use_cases:
+  - web workflow automation
+  - UI-driven data collection
+  - browser task agents
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - browser action abstractions
+  - agent-oriented web navigation
+  - integration with model providers
+limitations:
+  - UI changes can break automations
+  - robust production usage requires retry and guardrail design
+related_projects:
+  - https://github.com/microsoft/playwright-mcp
+last_reviewed: 2026-04-08

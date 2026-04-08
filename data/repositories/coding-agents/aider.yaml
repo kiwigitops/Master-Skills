@@ -1,0 +1,32 @@
+name: Aider
+github_url: https://github.com/Aider-AI/aider
+description: Terminal-first coding agent that edits code with repository context and git-aware workflows.
+category: Coding Agents
+subcategory: terminal coding assistant
+tags:
+  - coding-agent
+  - terminal
+  - git
+  - pair-programming
+language: python
+license: Apache-2.0
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - iterative code edits
+  - bug fixing
+  - test-guided development
+deployment_type:
+  - local
+notable_features:
+  - repository-aware edits
+  - multi-file changes
+  - git integration
+limitations:
+  - requires model API setup
+  - output quality depends on prompt clarity and tests
+related_projects:
+  - https://github.com/All-Hands-AI/OpenHands
+last_reviewed: 2026-04-08

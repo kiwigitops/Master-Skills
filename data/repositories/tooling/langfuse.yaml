@@ -1,0 +1,33 @@
+name: Langfuse
+github_url: https://github.com/langfuse/langfuse
+description: Observability platform for LLM and agent systems with traces, evaluations, and feedback loops.
+category: Observability / Monitoring
+subcategory: llm observability platform
+tags:
+  - observability
+  - tracing
+  - evaluation
+  - monitoring
+language: typescript
+license: MIT
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - tracing agent runs
+  - production monitoring
+  - evaluation feedback workflows
+deployment_type:
+  - cloud
+  - self-hosted
+notable_features:
+  - trace visualization
+  - dataset and eval support
+  - developer-friendly SDKs
+limitations:
+  - instrumentation setup effort is required
+  - metric strategy must be designed by teams
+related_projects:
+  - https://github.com/Arize-ai/phoenix
+last_reviewed: 2026-04-08

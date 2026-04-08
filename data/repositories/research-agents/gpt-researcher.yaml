@@ -1,0 +1,33 @@
+name: GPT Researcher
+github_url: https://github.com/assafelovic/gpt-researcher
+description: Autonomous research agent project focused on structured deep research and report generation workflows.
+category: Research Agents
+subcategory: autonomous research orchestration
+tags:
+  - research-agent
+  - summarization
+  - sources
+  - reporting
+language: python
+license: MIT
+maturity: beta
+activity_status: active
+docs_quality: medium
+beginner_friendly: true
+use_cases:
+  - topic research briefs
+  - multi-source synthesis
+  - structured report drafts
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - end-to-end research workflow
+  - source-backed output generation
+  - configurable research depth
+limitations:
+  - source quality filtering is user-dependent
+  - may require tuning for domain-specific rigor
+related_projects:
+  - https://github.com/stanford-oval/storm
+last_reviewed: 2026-04-08

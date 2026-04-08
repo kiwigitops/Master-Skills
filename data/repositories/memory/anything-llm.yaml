@@ -1,0 +1,33 @@
+name: AnythingLLM
+github_url: https://github.com/Mintplex-Labs/anything-llm
+description: Knowledge workspace for ingesting documents and powering assistant-style retrieval experiences.
+category: Knowledge Bases
+subcategory: knowledge workspace
+tags:
+  - knowledge-base
+  - retrieval
+  - documents
+  - workspace
+language: typescript
+license: MIT
+maturity: production
+activity_status: active
+docs_quality: medium
+beginner_friendly: true
+use_cases:
+  - internal knowledge chat
+  - document-grounded assistants
+  - team knowledge indexing
+deployment_type:
+  - local
+  - self-hosted
+notable_features:
+  - document ingestion workflows
+  - workspace-level configuration
+  - model and vector backend flexibility
+limitations:
+  - enterprise-scale deployments may require additional governance tooling
+  - data hygiene and source quality remain user responsibilities
+related_projects:
+  - https://github.com/langchain-ai/langchain
+last_reviewed: 2026-04-08

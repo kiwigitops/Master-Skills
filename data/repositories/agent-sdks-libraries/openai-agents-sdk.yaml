@@ -1,0 +1,34 @@
+name: OpenAI Agents SDK
+github_url: https://github.com/openai/openai-agents-python
+description: SDK for building and orchestrating AI agents with tools, handoffs, and execution loops in Python.
+category: Agent SDKs / Libraries
+subcategory: python agent sdk
+tags:
+  - sdk
+  - tools
+  - handoffs
+  - openai
+language: python
+license: MIT
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - building custom task agents
+  - multi-tool orchestration
+  - rapid prototyping
+deployment_type:
+  - local
+  - cloud
+  - api
+notable_features:
+  - first-party agent abstractions
+  - tool calling support
+  - composable orchestration primitives
+limitations:
+  - optimized for Python ecosystem
+  - enterprise guardrail patterns require additional application code
+related_projects:
+  - https://github.com/openai/openai-python
+last_reviewed: 2026-04-08

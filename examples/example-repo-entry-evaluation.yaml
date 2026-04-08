@@ -1,0 +1,30 @@
+name: Example Eval Suite
+github_url: https://github.com/example/example-eval-suite
+description: Example benchmarking entry used for testing index generation and schema validation.
+category: Evaluation / Benchmarking
+subcategory: test harness
+tags:
+  - example
+  - evaluation
+  - benchmarking
+language: multi
+license: MIT
+maturity: beta
+activity_status: maintenance
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - metric pipeline demos
+  - regression test examples
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - pluggable metrics
+  - markdown report generation
+limitations:
+  - synthetic data only in this sample
+related_projects:
+  - https://github.com/example/example-framework-x
+last_reviewed: 2026-04-08
+example_only: true

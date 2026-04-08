@@ -1,0 +1,33 @@
+name: STORM
+github_url: https://github.com/stanford-oval/storm
+description: Research-focused system for long-form, source-grounded generation workflows.
+category: Research Agents
+subcategory: long-form research generation
+tags:
+  - research
+  - long-form
+  - source-grounding
+  - academic
+language: python
+license: Apache-2.0
+maturity: beta
+activity_status: active
+docs_quality: medium
+beginner_friendly: false
+use_cases:
+  - literature-style report generation
+  - source-grounded writing workflows
+  - experiment-style content generation
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - source-aware drafting pipeline
+  - multi-stage synthesis flow
+  - research-oriented design
+limitations:
+  - setup and configuration can be heavy
+  - not optimized for lightweight quick tasks
+related_projects:
+  - https://github.com/assafelovic/gpt-researcher
+last_reviewed: 2026-04-08

@@ -1,0 +1,29 @@
+name: Example Browser Agent
+github_url: https://github.com/example/example-browser-agent
+description: Example browser agent entry showing a computer-use classification.
+category: Browser / Computer Use Agents
+subcategory: browser automation
+tags:
+  - example
+  - browser-agent
+  - automation
+language: typescript
+license: Apache-2.0
+maturity: experimental
+activity_status: active
+docs_quality: medium
+beginner_friendly: false
+use_cases:
+  - ui automation proof-of-concept
+  - web task scripting
+deployment_type:
+  - local
+notable_features:
+  - action planning over page elements
+  - screenshot-based verification
+limitations:
+  - unstable against frequent UI changes
+related_projects:
+  - https://github.com/example/example-framework-x
+last_reviewed: 2026-04-08
+example_only: true

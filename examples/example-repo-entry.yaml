@@ -1,0 +1,30 @@
+name: Example Framework X
+github_url: https://github.com/example/example-framework-x
+description: Example entry used to demonstrate the required schema and formatting rules.
+category: Agent Frameworks
+subcategory: orchestrator
+tags:
+  - example
+  - framework
+  - schema-demo
+language: python
+license: MIT
+maturity: beta
+activity_status: active
+docs_quality: medium
+beginner_friendly: true
+use_cases:
+  - example validation
+  - contributor onboarding
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - complete schema coverage
+  - simple onboarding sample
+limitations:
+  - not a real production project
+related_projects:
+  - https://github.com/example/example-sdk
+last_reviewed: 2026-04-08
+example_only: true

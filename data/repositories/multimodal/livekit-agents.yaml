@@ -1,0 +1,33 @@
+name: LiveKit Agents
+github_url: https://github.com/livekit/agents
+description: Framework for building real-time voice and multimodal AI agents over live communication channels.
+category: Voice / Multimodal Agents
+subcategory: real-time voice agents
+tags:
+  - voice
+  - realtime
+  - multimodal
+  - media
+language: python
+license: Apache-2.0
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: false
+use_cases:
+  - voice assistants
+  - call automation
+  - real-time multimodal interactions
+deployment_type:
+  - cloud
+  - self-hosted
+notable_features:
+  - real-time media pipelines
+  - telephony and communication integrations
+  - low-latency interaction patterns
+limitations:
+  - infrastructure setup can be non-trivial
+  - production deployments require strict latency monitoring
+related_projects:
+  - https://github.com/livekit/livekit
+last_reviewed: 2026-04-08

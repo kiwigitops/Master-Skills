@@ -1,0 +1,33 @@
+name: Playwright MCP
+github_url: https://github.com/microsoft/playwright-mcp
+description: MCP server that exposes browser automation capabilities through a standardized tool interface.
+category: Tool Use / Integrations
+subcategory: mcp browser integration
+tags:
+  - mcp
+  - browser
+  - integration
+  - tools
+language: typescript
+license: MIT
+maturity: beta
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - attaching browser tools to agents
+  - deterministic web interactions
+  - UI testing support
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - Model Context Protocol compatibility
+  - reusable browser operations
+  - practical bridge between agents and Playwright
+limitations:
+  - requires MCP-compatible runtime
+  - browser environment setup is still required
+related_projects:
+  - https://github.com/modelcontextprotocol/spec
+last_reviewed: 2026-04-08

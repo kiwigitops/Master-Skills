@@ -1,0 +1,33 @@
+name: mem0
+github_url: https://github.com/mem0ai/mem0
+description: Memory layer for AI applications and agents with user/session-aware retrieval patterns.
+category: Memory / Retrieval / RAG
+subcategory: agent memory layer
+tags:
+  - memory
+  - retrieval
+  - personalization
+  - rag
+language: python
+license: Apache-2.0
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - persistent user memory
+  - long-term context retention
+  - memory-augmented agents
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - memory extraction pipeline
+  - retrieval-ready storage patterns
+  - integration guides for agent stacks
+limitations:
+  - memory policy design is application-specific
+  - privacy controls must be configured by implementers
+related_projects:
+  - https://github.com/run-llama/llama_index
+last_reviewed: 2026-04-08

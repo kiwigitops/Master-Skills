@@ -1,0 +1,33 @@
+name: Model Context Protocol Spec
+github_url: https://github.com/modelcontextprotocol/spec
+description: Open protocol specification for exposing tools, resources, and prompts to model-driven agents.
+category: Tool Use / Integrations
+subcategory: open interoperability protocol
+tags:
+  - mcp
+  - protocol
+  - tools
+  - interoperability
+language: multi
+license: MIT
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - standardizing tool interfaces
+  - cross-platform agent integrations
+  - reducing custom connector overhead
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - vendor-neutral protocol design
+  - support for tools/resources/prompts
+  - broad ecosystem adoption
+limitations:
+  - implementation quality varies by server
+  - protocol compliance still needs validation per integration
+related_projects:
+  - https://github.com/modelcontextprotocol/servers
+last_reviewed: 2026-04-08

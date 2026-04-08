@@ -1,0 +1,33 @@
+name: Ragas
+github_url: https://github.com/explodinggradients/ragas
+description: Evaluation framework for RAG and agent outputs with metric-driven quality checks.
+category: Evaluation / Benchmarking
+subcategory: rag and agent evaluation
+tags:
+  - evaluation
+  - rag
+  - metrics
+  - benchmarking
+language: python
+license: Apache-2.0
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - retrieval quality measurement
+  - answer faithfulness scoring
+  - regression tracking
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - built-in evaluation metrics
+  - dataset-friendly workflows
+  - evaluation pipeline support
+limitations:
+  - metric interpretation still requires human judgment
+  - domain-specific evaluation often needs custom metrics
+related_projects:
+  - https://github.com/confident-ai/deepeval
+last_reviewed: 2026-04-08

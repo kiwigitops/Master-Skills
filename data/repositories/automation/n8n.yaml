@@ -1,0 +1,33 @@
+name: n8n
+github_url: https://github.com/n8n-io/n8n
+description: Workflow automation platform frequently used to orchestrate AI steps alongside traditional integrations.
+category: Workflow / Automation
+subcategory: visual automation platform
+tags:
+  - automation
+  - workflows
+  - integrations
+  - low-code
+language: typescript
+license: fair-code
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - event-driven automations
+  - integration pipelines
+  - agent plus workflow hybrids
+deployment_type:
+  - self-hosted
+  - cloud
+notable_features:
+  - visual workflow editor
+  - large integration catalog
+  - scheduling and trigger support
+limitations:
+  - complex logic can become difficult to maintain visually
+  - enterprise governance may require additional controls
+related_projects:
+  - https://github.com/langflow-ai/langflow
+last_reviewed: 2026-04-08

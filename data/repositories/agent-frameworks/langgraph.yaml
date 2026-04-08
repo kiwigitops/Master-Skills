@@ -1,0 +1,33 @@
+name: LangGraph
+github_url: https://github.com/langchain-ai/langgraph
+description: Framework for building stateful, graph-based agent workflows with explicit control over execution paths and retries.
+category: Agent Frameworks
+subcategory: graph orchestrator
+tags:
+  - orchestration
+  - stateful-agents
+  - workflows
+  - python
+language: python
+license: MIT
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - multi-step tool workflows
+  - resilient agent orchestration
+  - human-in-the-loop flows
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - graph execution model
+  - checkpointing support
+  - integration with model providers
+limitations:
+  - advanced graph design can be complex for first-time users
+  - best practices vary by deployment target
+related_projects:
+  - https://github.com/langchain-ai/langchain
+last_reviewed: 2026-04-08
