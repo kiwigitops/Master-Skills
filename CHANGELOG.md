@@ -4,6 +4,34 @@ All notable changes to this project will be documented in this file.
 
 The format is inspired by Keep a Changelog and this project follows semantic versioning principles.
 
+## [1.1.0] - 2026-04-08
+
+### Added
+
+- Federated upstream skill source model:
+  - `data/upstream/skill-sources.yaml`
+  - `indexes/upstream-skill-sources.md`
+  - `scripts/index_upstream_skills.py`
+- New `Skills Systems` repository entry:
+  - `Awesome Copilot`
+- New local operator skill:
+  - `upstream-skill-source-manager`
+- Contributor template for upstream skill sources:
+  - `templates/upstream-skill-source-template.yaml`
+- New docs:
+  - `docs/federated-skills.md`
+  - `docs/adoption-prompt.md`
+  - `docs/releases/v1.1.0.md`
+- Native GitHub Sponsors metadata:
+  - `.github/FUNDING.yml`
+
+### Changed
+
+- Skills system documentation now enforces an upstream-first repo-of-repos model.
+- Core skills upgraded with clearer output contracts and quality checks.
+- README improved for trust and conversion with CI + update badges and clearer star-value framing.
+- CI workflow now installs dependencies from `requirements.txt`.
+
 ## [1.0.0] - 2026-04-08
 
 ### Added

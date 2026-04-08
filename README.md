@@ -15,6 +15,8 @@
 
 <p>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-16a34a?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/kiwigitops/Master-Skills/actions/workflows/validate-repository.yml"><img src="https://img.shields.io/github/actions/workflow/status/kiwigitops/Master-Skills/validate-repository.yml?branch=main&style=flat-square&label=CI" alt="CI status" /></a>
+  <a href="https://github.com/kiwigitops/Master-Skills/commits/main"><img src="https://img.shields.io/github/last-commit/kiwigitops/Master-Skills?style=flat-square&label=Updated" alt="Last updated" /></a>
   <a href="./docs/schema.md"><img src="https://img.shields.io/badge/Schema-Structured_Data-1d4ed8?style=flat-square" alt="Schema" /></a>
   <a href="./docs/classification-system.md"><img src="https://img.shields.io/badge/Taxonomy-15_Categories-0f766e?style=flat-square" alt="Taxonomy" /></a>
   <a href="./docs/skills-system.md"><img src="https://img.shields.io/badge/Skills-System-7c3aed?style=flat-square" alt="Skills" /></a>
@@ -61,6 +63,12 @@ This repository is built to solve that with:
 | Local operator skills | 6 curation skills |
 | Generated indexes | 5 browse surfaces |
 | Validation status | Script-validated in CI-ready workflow |
+
+## Why Star This Repo
+
+- It gives a strict, comparable schema for evaluating fast-moving agent tooling.
+- It tracks upstream skill ecosystems without becoming a copy or fork.
+- It stays contributor-friendly with templates, automation, and principles-first review rules.
 
 ## Quick Navigation
 

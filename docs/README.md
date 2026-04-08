@@ -19,3 +19,7 @@ Start here for repository standards and operating guides.
 
 - [faq.md](./faq.md)
 - [glossary.md](./glossary.md)
+
+## Releases
+
+- [releases/v1.1.0.md](./releases/v1.1.0.md)

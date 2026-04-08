@@ -15,6 +15,7 @@ Use one of these paths:
 - Validate your local changes with:
   - `python scripts/validate_repo_entries.py`
   - `python scripts/generate_indexes.py`
+  - `python scripts/index_upstream_skills.py`
 
 ## Maintainer Scope
 
