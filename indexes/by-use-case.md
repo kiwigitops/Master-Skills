@@ -51,6 +51,10 @@ Use-case headings are source-derived and may evolve as entries change.
 
 - **AutoGen** ([repo](https://github.com/microsoft/autogen), [entry](../data/repositories/multi-agent/autogen.yaml)) - Multi-agent conversation framework for coordinating specialized agents on complex tasks. `python` | `production` | `intermediate+`
 
+## comparing packaged agent workflows
+
+- **Awesome Copilot** ([repo](https://github.com/github/awesome-copilot), [entry](../data/repositories/skills-systems/awesome-copilot.yaml)) - Community repository of agents, skills, instructions, hooks, workflows, and plugins for Copilot ecosystems. `multi` | `production` | `beginner-friendly`
+
 ## constrained tool execution
 
 - **E2B** ([repo](https://github.com/e2b-dev/E2B), [entry](../data/repositories/tooling/e2b.yaml)) - Sandboxed execution environment for running agent-generated code safely. `typescript` | `production` | `beginner-friendly`
@@ -70,6 +74,10 @@ Use-case headings are source-derived and may evolve as entries change.
 ## deterministic web interactions
 
 - **Playwright MCP** ([repo](https://github.com/microsoft/playwright-mcp), [entry](../data/repositories/browser-agents/playwright-mcp.yaml)) - MCP server that exposes browser automation capabilities through a standardized tool interface. `typescript` | `beta` | `beginner-friendly`
+
+## discovering reusable skills
+
+- **Awesome Copilot** ([repo](https://github.com/github/awesome-copilot), [entry](../data/repositories/skills-systems/awesome-copilot.yaml)) - Community repository of agents, skills, instructions, hooks, workflows, and plugins for Copilot ecosystems. `multi` | `production` | `beginner-friendly`
 
 ## document-grounded assistants
 
@@ -106,6 +114,10 @@ Use-case headings are source-derived and may evolve as entries change.
 ## iterative code edits
 
 - **Aider** ([repo](https://github.com/Aider-AI/aider), [entry](../data/repositories/coding-agents/aider.yaml)) - Terminal-first coding agent that edits code with repository context and git-aware workflows. `python` | `production` | `beginner-friendly`
+
+## learning customization primitives
+
+- **Awesome Copilot** ([repo](https://github.com/github/awesome-copilot), [entry](../data/repositories/skills-systems/awesome-copilot.yaml)) - Community repository of agents, skills, instructions, hooks, workflows, and plugins for Copilot ecosystems. `multi` | `production` | `beginner-friendly`
 
 ## learning skill design patterns
 

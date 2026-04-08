@@ -1,6 +1,9 @@
 # Skills System
 
-This repository includes a reusable skill packaging system for agent workflows.
+This repository uses a federated skill model.
+
+- **Primary skill sources:** external repositories listed in `data/upstream/skill-sources.yaml`
+- **Local skills (`skills/`):** curation/operator skills used to ingest, classify, summarize, and compare upstream skill ecosystems
 
 ## Skill directory contract
 
@@ -87,3 +90,42 @@ A good skill should:
 - skills encode repeatable workflows for agents
 
 Use docs for tutorials. Use skills for execution patterns.
+
+## Upstream-first model
+
+This project is a repo-of-repos, not a monolithic local skill pack.
+
+Use upstream sources as the default source of implementation skills:
+
+- OpenAI Skills
+- Anthropic Skills
+- Awesome Copilot
+
+Local skills should focus on:
+
+- mapping upstream repositories
+- extracting reusable patterns
+- generating comparable metadata
+- supporting contributor workflows
+
+## Upstream index automation
+
+The upstream source manifest is stored in:
+
+- `data/upstream/skill-sources.yaml`
+- `templates/upstream-skill-source-template.yaml`
+
+Generate an index of upstream sources:
+
+```bash
+python scripts/index_upstream_skills.py
+```
+
+Fetch/update upstream repositories and include detected `SKILL.md` counts:
+
+```bash
+python scripts/index_upstream_skills.py --fetch
+```
+
+Committed index files should stay deterministic.
+Use `--fetch` for maintainer analysis, then regenerate without `--fetch` before commit.

@@ -47,17 +47,19 @@ This repository is built to solve that with:
 - a stable, explicit classification system
 - structured YAML entries with validation
 - reproducible generated indexes
-- reusable skills for curation workflows
+- upstream skill repository indexing
+- local operator skills for curation workflows
 - contributor onboarding for both beginners and advanced maintainers
 
 ## At A Glance
 
 | Signal | Value |
 | --- | --- |
-| Repository entries | 19 validated entries |
+| Repository entries | 20 validated entries |
 | Canonical taxonomy | 15 top-level categories |
-| Reusable skills | 5 original skills |
-| Generated indexes | 4 browse surfaces |
+| Upstream skill sources | 3 tracked repositories |
+| Local operator skills | 6 curation skills |
+| Generated indexes | 5 browse surfaces |
 | Validation status | Script-validated in CI-ready workflow |
 
 ## Quick Navigation
@@ -67,6 +69,8 @@ This repository is built to solve that with:
 - [Repository Structure](#repository-structure)
 - [Classification System](#classification-system)
 - [Skills System](#skills-system)
+- [Upstream Skill Repositories](#upstream-skill-repositories)
+- [Adoption Prompt](#adoption-prompt)
 - [Data Schema](#data-schema)
 - [Principles](#principles)
 - [Indexes](#indexes)
@@ -91,6 +95,7 @@ python scripts/validate_repo_entries.py
 
 ```bash
 python scripts/generate_indexes.py
+python scripts/index_upstream_skills.py
 ```
 
 ## Who This Is For
@@ -129,11 +134,12 @@ python scripts/generate_indexes.py
 | Path | Purpose |
 | --- | --- |
 | `data/repositories/` | Canonical YAML catalog entries |
-| `skills/` | Reusable skill packages (`SKILL.md` + optional resources) |
+| `data/upstream/` | External skill repository source manifests |
+| `skills/` | Local operator skills for repo ingestion, classification, and comparison |
 | `indexes/` | Generated browse views for discoverability |
 | `docs/` | Core standards (taxonomy, schema, system design) |
 | `wiki/` | Beginner-friendly conceptual learning content |
-| `templates/` | Contributor templates for entries, skills, issues, and PRs |
+| `templates/` | Contributor templates for entries, upstream sources, skills, issues, and PRs |
 | `scripts/` | Validation + index generation automation |
 | `.github/` | Native GitHub issue/PR UX and CI workflow |
 
@@ -147,7 +153,15 @@ Read: [docs/classification-system.md](./docs/classification-system.md)
 
 ## Skills System
 
-Skills are first-class artifacts, each in:
+This repository treats external skill repos as primary sources.
+
+Local `skills/` are operator tools for:
+
+- extracting skill patterns from upstream repos
+- classifying and summarizing repositories
+- comparing frameworks and skill systems
+
+Local operator skills live in:
 
 ```text
 skills/<skill-name>/SKILL.md
@@ -165,6 +179,29 @@ Required frontmatter fields:
 
 Read: [docs/skills-system.md](./docs/skills-system.md)
 
+## Upstream Skill Repositories
+
+The project tracks upstream skill ecosystems via:
+
+- `data/upstream/skill-sources.yaml`
+- `templates/upstream-skill-source-template.yaml`
+
+Browse source index:
+
+- [Upstream Skill Sources](./indexes/upstream-skill-sources.md)
+
+Regenerate upstream index:
+
+```bash
+python scripts/index_upstream_skills.py
+```
+
+## Adoption Prompt
+
+Need another AI to apply this system to an existing repository?
+
+- Use: [docs/adoption-prompt.md](./docs/adoption-prompt.md)
+
 ## Data Schema
 
 Repository entries include decision-critical fields:
@@ -175,7 +212,7 @@ Repository entries include decision-critical fields:
 - comparison support: `use_cases`, `notable_features`, `limitations`
 - maintenance: `last_reviewed`
 
-Read: [schema.md](./schema.md)
+Read: [docs/schema.md](./docs/schema.md)
 
 ## Principles
 
@@ -204,6 +241,7 @@ Start here:
 
 - Contributor guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Repo template: [templates/repo-entry-template.md](./templates/repo-entry-template.md)
+- Upstream source template: [templates/upstream-skill-source-template.yaml](./templates/upstream-skill-source-template.yaml)
 - Skill template: [templates/skill-template.md](./templates/skill-template.md)
 - Issue template: [templates/issue_template.md](./templates/issue_template.md)
 - PR template: [templates/pull_request_template.md](./templates/pull_request_template.md)

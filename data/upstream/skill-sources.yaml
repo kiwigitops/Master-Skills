@@ -1,0 +1,29 @@
+sources:
+  - id: openai-skills
+    name: OpenAI Skills
+    github_url: https://github.com/openai/skills
+    description: Curated and system skills for Codex-style agent workflows.
+    skills_roots:
+      - skills/.curated
+      - skills/.system
+    skill_file: SKILL.md
+    discovery_hint: Use folder-per-skill and read frontmatter first.
+
+  - id: anthropic-skills
+    name: Anthropic Skills
+    github_url: https://github.com/anthropics/skills
+    description: Claude-compatible skill repository with templates and production examples.
+    skills_roots:
+      - skills
+      - template
+    skill_file: SKILL.md
+    discovery_hint: Prioritize skills/ for practical examples and template/ for bootstrapping.
+
+  - id: awesome-copilot
+    name: Awesome Copilot
+    github_url: https://github.com/github/awesome-copilot
+    description: Large ecosystem repository containing many skill folders and related customization artifacts.
+    skills_roots:
+      - skills
+    skill_file: SKILL.md
+    discovery_hint: Treat skills as one primitive among agents, instructions, hooks, and workflows.

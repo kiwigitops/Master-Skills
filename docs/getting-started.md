@@ -18,6 +18,7 @@ python scripts/validate_repo_entries.py
 
 ```bash
 python scripts/generate_indexes.py
+python scripts/index_upstream_skills.py
 ```
 
 ## 4. Read core docs
@@ -25,6 +26,8 @@ python scripts/generate_indexes.py
 - `docs/how-to-use-this-repo.md`
 - `docs/classification-system.md`
 - `docs/skills-system.md`
+- `docs/federated-skills.md`
+- `docs/adoption-prompt.md`
 - `docs/schema.md`
 
 ## 5. Start contributing

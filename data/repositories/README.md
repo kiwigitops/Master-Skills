@@ -22,3 +22,4 @@ This directory contains structured YAML entries for AI agent ecosystem projects.
 - Folder names are browsing helpers.
 - Canonical classification is always defined by each entry's `category` field.
 - Validate all entry changes before opening a pull request.
+- Upstream skill source manifests are stored separately in `data/upstream/`.

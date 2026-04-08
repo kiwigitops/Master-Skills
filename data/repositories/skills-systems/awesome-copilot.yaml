@@ -1,0 +1,34 @@
+name: Awesome Copilot
+github_url: https://github.com/github/awesome-copilot
+description: Community repository of agents, skills, instructions, hooks, workflows, and plugins for Copilot ecosystems.
+category: Skills Systems
+subcategory: ecosystem skills collection
+tags:
+  - skills
+  - ecosystem
+  - copilot
+  - community
+language: multi
+license: MIT
+maturity: production
+activity_status: active
+docs_quality: high
+beginner_friendly: true
+use_cases:
+  - discovering reusable skills
+  - learning customization primitives
+  - comparing packaged agent workflows
+deployment_type:
+  - local
+  - cloud
+notable_features:
+  - broad multi-primitive catalog
+  - learning hub with beginner pathways
+  - active community contribution model
+limitations:
+  - quality varies by contribution
+  - repository scope extends beyond skills only
+related_projects:
+  - https://github.com/openai/skills
+  - https://github.com/anthropics/skills
+last_reviewed: 2026-04-08

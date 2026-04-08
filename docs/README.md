@@ -6,12 +6,14 @@ Start here for repository standards and operating guides.
 
 - [classification-system.md](./classification-system.md)
 - [skills-system.md](./skills-system.md)
+- [federated-skills.md](./federated-skills.md)
 - [schema.md](./schema.md)
 
 ## Onboarding
 
 - [getting-started.md](./getting-started.md)
 - [how-to-use-this-repo.md](./how-to-use-this-repo.md)
+- [adoption-prompt.md](./adoption-prompt.md)
 
 ## Reference
 

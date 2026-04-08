@@ -1,6 +1,6 @@
 ---
 name: repo-summarizer
-description: Produce concise, comparable summaries of AI repositories for catalog entries and review notes.
+description: Produce concise, comparable summaries of external AI repositories for catalog entries, including upstream skill repositories.
 category: analysis
 inputs:
   - repository readme
@@ -22,13 +22,13 @@ difficulty: beginner
 
 ## Description
 
-Generate neutral, decision-focused summaries so maintainers can compare repositories without marketing noise.
+Generate neutral, decision-focused summaries so maintainers can compare external repositories without marketing noise.
 
 ## When to use
 
-- A new entry needs a one-paragraph description.
+- A new external repository entry needs a one-paragraph description.
 - Existing entries are too verbose or promotional.
-- A reviewer wants consistent project summaries across categories.
+- A reviewer wants consistent summaries for upstream skill source repos.
 
 ## How it works
 
@@ -37,6 +37,30 @@ Generate neutral, decision-focused summaries so maintainers can compare reposito
 3. Write a concise summary using plain language.
 4. Return strengths, limitations, and beginner-fit notes.
 5. Suggest 3-6 taxonomy-friendly tags.
+
+## Output format
+
+```yaml
+summary: Framework for...
+audience_fit:
+  - platform engineers
+  - applied ML teams
+strengths:
+  - explicit state management
+  - strong docs
+limitations:
+  - migration overhead for existing stacks
+suggested_tags:
+  - orchestration
+  - workflows
+```
+
+## Quality checks
+
+- summary is factual and does not include marketing language
+- strengths and limitations are evidence-backed
+- output can be compared side-by-side with other entries
+- tags are useful for filtering, not vanity keywords
 
 ## Examples
 

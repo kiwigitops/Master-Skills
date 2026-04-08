@@ -6,6 +6,7 @@ Language reflects each entry's primary implementation language.
 ## multi
 
 - **Anthropic Skills** ([repo](https://github.com/anthropics/skills), [entry](../data/repositories/skills-systems/anthropic-skills.yaml)) - Public repository of skill examples and templates for Claude-compatible skill packaging. `multi` | `production` | `beginner-friendly`
+- **Awesome Copilot** ([repo](https://github.com/github/awesome-copilot), [entry](../data/repositories/skills-systems/awesome-copilot.yaml)) - Community repository of agents, skills, instructions, hooks, workflows, and plugins for Copilot ecosystems. `multi` | `production` | `beginner-friendly`
 - **Model Context Protocol Spec** ([repo](https://github.com/modelcontextprotocol/spec), [entry](../data/repositories/tooling/model-context-protocol.yaml)) - Open protocol specification for exposing tools, resources, and prompts to model-driven agents. `multi` | `production` | `beginner-friendly`
 - **OpenAI Skills** ([repo](https://github.com/openai/skills), [entry](../data/repositories/skills-systems/openai-skills.yaml)) - Curated and system skill catalog showing reusable skill packaging patterns for agent workflows. `multi` | `production` | `beginner-friendly`
 

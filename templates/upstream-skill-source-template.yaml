@@ -1,0 +1,9 @@
+# Copy this block into data/upstream/skill-sources.yaml under `sources:`
+- id: <unique-source-id>
+  name: <Display Name>
+  github_url: <https://github.com/org/repo>
+  description: <What this source contributes to the federated skills model>
+  skills_roots:
+    - <skills>
+  skill_file: SKILL.md
+  discovery_hint: <How maintainers should interpret this source>

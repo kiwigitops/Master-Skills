@@ -25,7 +25,19 @@ Thank you for helping improve the Agent Ecosystem Atlas.
 4. Run:
    - `python scripts/validate_repo_entries.py`
    - `python scripts/generate_indexes.py`
+   - `python scripts/index_upstream_skills.py`
 5. Include rationale for category and beginner-friendly status in your PR.
+
+## How to add an upstream skill source
+
+1. Copy `templates/upstream-skill-source-template.yaml` and add a new source in `data/upstream/skill-sources.yaml`.
+2. Keep `id` unique and stable.
+3. Set `skills_roots` to the exact directories expected to contain `SKILL.md`.
+4. Run:
+   - `python scripts/index_upstream_skills.py`
+5. Optionally run:
+   - `python scripts/index_upstream_skills.py --fetch`
+6. Include source rationale and discovery assumptions in the PR description.
 
 ## How to add a skill
 
@@ -33,6 +45,7 @@ Thank you for helping improve the Agent Ecosystem Atlas.
 2. Keep frontmatter complete and accurate.
 3. Include required sections: Description, When to use, How it works, Examples.
 4. Add `examples.md` or `scripts/` only when they add practical value.
+5. Do not mirror full upstream skill implementations into local `skills/`; local skills are operator workflows.
 
 ## Review checklist
 
@@ -42,6 +55,8 @@ Thank you for helping improve the Agent Ecosystem Atlas.
 - no promotional wording
 - dates are in `YYYY-MM-DD`
 - links resolve
+- upstream source IDs are unique
+- upstream skill roots are explicit and auditable
 
 ## Tagging rules
 
